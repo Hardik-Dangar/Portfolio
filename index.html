@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardik Dangar</title>
+    <!-- Bootstrep link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Box-icon-link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript-link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 mx-auto">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+              <svg
+                stroke="currentColor"
+                fill="white"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 32 32"
+                height="3rem"
+                width="3rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.632 5.289c-0.613 0.129-1.823 0.565-2.662 0.984-1.275 0.613-1.759 0.968-2.921 2.13s-1.517 1.646-2.13 2.921c-1.646 3.373-1.646 6.6 0 10.005 0.613 1.291 0.952 1.759 2.13 2.921 1.178 1.178 1.63 1.501 2.921 2.13 1.969 0.936 2.921 1.162 5.002 1.162s3.034-0.226 5.002-1.162c1.275-0.613 1.727-0.952 2.921-2.13 1.178-1.194 1.517-1.646 2.13-2.921 0.774-1.63 1-2.388 1.178-4.002l0.113-1h-3.195l-0.21 1.243c-1.017 6.471-8.907 9.069-13.587 4.47-3.792-3.712-2.969-10.005 1.678-12.732 0.871-0.516 2.63-1.049 3.437-1.049h0.532v-3.227l-0.597 0.016c-0.339 0-1.113 0.113-1.743 0.242zM14.213 9.645c-3.421 0.92-5.648 4.325-5.067 7.745 0.662 3.792 4.212 6.39 7.891 5.761 3.776-0.645 6.39-4.212 5.761-7.859-0.71-4.115-4.647-6.713-8.585-5.648z"
+                ></path>
+              </svg>
+              Portfolio</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="bx bx-menu"></i
+              ></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#about"
+                    >About <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#project">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/Hardik-Dangar"
+                    ><i class="bx bxl-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- About start -->
+    <section id="about" class="about d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <div class="row pt-5">
+              <div class="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1">
+                <div class="a_text">
+                  <h1>Hi, I am <br />Hardik Dangar</h1>
+                  <h2 class="pt-3">I am a  <span></span></h2>
+                
+                  <p class="pt-3">
+                    I am a motivated and versatile individual, always eager to
+                    take on new challenges. With a passion for learning I am
+                    dedicated to delivering high-quality results. With a
+                    positive attitude and a growth mindset, I am ready to make a
+                    meaningful contribution and achieve great things.
+                  </p>
+                  <div class="btn mt-5">
+                    <a href="https://drive.google.com/drive/my-drive" class=""
+                      >Check Resume</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 order-1 order-lg-2 mt-4">
+                <div class="slider-thumb">
+                  <img
+                    src="LMC_20230604_160250_Pixel Hero 🔥 (Lmc 8.4 R14).PORTRAIT.jpg "
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skill" id="skill">
+      <div class="container-fluid">
+        <h1 class="text-center">Skills</h1>
+        <p class="text-center mt-3">
+          Here are some of my skills on which I have been learning on for the
+          <br />
+          past 1 years.
+        </p>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="row mt-5">
+              <div class="col-md-6">
+                <div class="box_one">
+                  <h2 class="text-center">Frontend</h2>
+
+                  <div class="sc-bZkfAO">
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      HTML
+                    </div>
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      CSS
+                    </div>
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      JavaScript
+                    </div>
+
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      React Js
+                    </div>
+
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Bootstrap
+                    </div>
+
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC8UlEQVR4Ae2XNZTbQBCG5TBzUl4VZj6+cH8pw0xNqHN10L8w9MVVgSoce+2kCUMVxjbUJSLTb/uXNH4rHYRJ731vRyt5Z3ZIa+OPu/5fNUkrBNMbf5BSVaEwBnqDPhLOxaRh33wtVJ91xQnIJMwrmiHqKw2pSZmacsojQTNoAydJK1jJZwboRWiE/bWxpvKEGatRJQPi4CPIgxxHKX8C7Xh3YM01h97wjeDG7Iq1I2Ju+i80Xc4a1crsA/k0lWSBRVxBhs/y4D6oAsIIjRjo1dXuvR8f5MIZjgT3uiccym/ABP6+L4gJxX2qy5scFmpAbdKUyqu5YAfjvBhsAOkwI4jL8S2Y5OfF2bwhDBkH2iI9IJLoKFgt58Qi8QgjpLfeg/XIiyELrlvYnNUP903gBdjfVQgGgRmUg3qnzPk9gUItRFniGfIQvOT9zWJiB25ns6lN2sDfJWE4EloS9aW8SyiVCZmj7IRUy3QQ0uW4y8akazSAOpRNvXIMsXO63yS+J1aAN1KRRMw9BnO8JJfKe8kOVlteeEQJBVnRA7IjKq1ahoCt4Dxd/YG85NwmMKgahlNfkHClslClmG+KWoCLD/GVKptG2KIFl+egJNgAveSFVnZJaf0cuqcrF76hu8vuLxqRdrUQzscuF4Dqq7axEGghJJ4wnYkhFTmivLKUXWHQLq3JgOoUvUKPBNBT9IRsu8UXb3LRlyyV93oZAb3c9nRRojPAIMqRH539bApNoF8t3Mk4rxeGZLRwBHNx4X7ZrFaziXEu2oA2MM5f5G5eLjKJ7ZT1HWlEmu15Mdt1B+ervYRFf4k0YBjLopwgCa3JTBD17VCxbgQR9weDaokOgVb/AlkhVfzE5mVCCizi5cvp4iccn/IgNMqMMEAqv2pyzqw0IvGlOA4E7SHVIuWPIA4vYtfM/q86H+pGyCPWSMa5FZwkbaCZz/RzYcr8ynNhIuxcaPO+e4dSHGy/038BRbo6lquvOJZ/TWg4avxx1/+rAHVbhJLs9OHAAAAAAElFTkSuQmCC"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Tailwind CSS
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="box_two">
+                  <h2 class="text-center">Backend</h2>
+
+                  <div class="sc-bZkfAO">
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://nodejs.org/static/images/logo.svg"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Node Js
+                    </div>
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEWCgoL////l5eXk5OTm5ubu7u74+Pj19fXx8fH7+/vr6+t+fn52dnZ7e3t8fHzz8/OGhoaTk5Pa2tq3t7e7u7utra3Q0NCZmZnFxcWkpKSMjIzKysqpqanX19e/v7+dnZ1ra2tH/Sn9AAASPElEQVR4nOVdbZuyKhBWwTcErcxqa7fO//+VB9RKGF6tdvWc+bLPNY+m48DMzc0AURzHWYKTjP9FOEn5nzTBaKJNPLW5UYtxQozawqYtH1o8V4ui/4eFKEG9hcn4fgmaqU2S0ZaHNndpi0Fbjlr8Ni0atVGWZXmapjn/y/8U/E/B//6etnmnttFoI/4BemcgxUVBWuLS8iaES/6XENLwPw1vSpPPngzXPj67TYtDtIhrI6ztZm/pkuKZDbcpLgt0uV73+7b74tJ1bdterztUZDgl5Se6JJpoP+ZD/uNNnKNTdztHlFJWV7LUjCuj8609oIx/hfRzPvxI3yqanBzaIzeNGxbZpKq4pdG2PeBcdKKXepyhH747lgotut4iyuymKYYyGt1O6aRpvi+WvrXzYZKSXbehDscZrKxp1F1wms7sfNZ8iAa/oLGbIeSjJRrt9RjmO+hLtj31HkDD+6GhS6Kxm3losaKNAs0yG9uQ042+Yt1dano8lS+ahT6QLUjH2BvMG42sOxKTt2WLV8MLwqT42b7FfU+p6PYkUunrQSd6PUU0pK3e576nsKgl8euJQ84W4ck/IWj/UmyxScW+EQlO/gi9M1vkqPuYfYONXfGWbDHbh+1H7Rts3AdCNUX7Qj/M8lNUf9g+IXV0KssX+uH8WIo2n4gvOmFnFAjVprF0bj7Mvukv2SeEfudkbj6cBdUScnhz/nMJ745kHoCbh0uz2286cBB2K3NvqDbFpeHZAse/7cBBKnpKfZvmS1wbSY6/78BB2FGid/wAXPAYvznMGvy9R6rqEH+Ya0ua6185cBDaEm1eQO/i2vDxt3KgSdgRuUmA2Vwb2W3+roXepdqgIAAX0g/zw187cBB2yD/DtaXt33bBp/DO6IBqs0ZP6dcyPCiEfZXeAM4b0xTH3xhH+Aq72aHaFNP4RRqcnP8+xkylOqO3ZguMFhBEZRlCqgmqhXJtJdr8tUE6yd/GtZVkaQ4cJS0n75tqE0fqw7VhtFADo2j3Fq4NL7OJ9rJ5C9eWLNdAHlHdAM7ZD/OFpQlZqm2hQrU8kGtLj0s2kJt4dAE4Rz5Mv5aEZHRS6wCcP9eWt8vBoiahJzuAs0YacljKaMIm9IKtkcaWLXbL96AQtsMWAGcZHyZ4wXlCkk0410Z6Vm3hYfQp1TZWoJoX19Zc19FGhbCOhI+e8M8aosxd6CGYa8PJX790mFTBXFu8mk44SHUsIdeW27i2VWTCqdALCeHakmxtBnITrflQ5drIbV1ttJctCeDaVtdGhdCDPtLossUK26gQmjW+XNv3Ctsol+o7s3NtZEwcGVqnC7kTf0YriJ1ry9cCuKGc/bi203rwqCrs4sW1/fVrviKVB9fWtEtnZmxSt42La0vQetuoELZzcW2kW2emuEvVObm2dbtQpH0719bs1+1CkfaJbWyBydpdyIONNVuQdu0u5E5sCeTaSErEGJ+kxfoN5CYWI9c2ADh59PQT3EjF4roqOh+3x/OG/5u5y/oAJvT9qup1GwO6ZD+xmWvbej5sfCSj5/ZARAMfJCM/+1tlLz5lRawI8QP61Zd649Fw5TZOTFyb57PGV2VfP6X6UCGojay/A27wI2Yr9TbjrBFFyXQEnOcj15ZnTUC2p+eDzrpRdluzjdAX8dbjuTRRbjLzuVVX5gPXlitcm3+qoEdksa935Nn4Y/SiXty42w5rlXtyy8uy2JAPfYdNbLNz2CfkZHxtmqrXXpxPPqu32PzODgau7eZnIL162Ce+4tk0StmAa13tlKrxyTp1W91kru1BknrFmaqv8PCTzvCL9bd6pYP7omqn3zmuR4lubHH1iTMUxgmLXAwvAt7YEjciTXDKHK262uPHngVPH6am9CK92j7EQPO3Zo16pY2DBoni7HrPSYUGH+OTYYzvkwxhGJxrIogcpZlaoGrgdtdPUJJDrs1j0h42LrcYmh+I/uauBS51dML+nl0Os4U73fd1HUDK5HDat/vrAWW6/zZlDQoyjomHVt1ty4R3qbocjp6cLCnr4Ovj9nzf1YND8HOrAg8hX/o3ZwDy6R8LEoUPAoo2mcy1cZDjJLqrLXj3n7OCsistmNN/O/h72lcAXd+viIlibpTEtRVO+oKpjRCddW+kATzY0BUBcuhgtBHJWxKPTtj/uPgwUj5sDG3pIaDfGFdfwJRpYA5AjNRkgUppy65M+LhPgAqJa8t97phIaUbWfKiqAk/TtaqFIGOBj+DVCe+/PeXasCsbKnGhtI/M1RczLCcCTTDeyxeCRLH3H/7s5P3asGNJk9pnXNQDxfL1hkANEYTcTtVE4dkJhdQnOVs4SbbQtkJlWGYigKgK49OpDWqi8O2EQqqWTLk20thBKZNzgE/AVj6/6TIwkJoMUoGH/Tshl2Mjc232q2Xo6zXMUrrQyQA71Qg2YcNALw0s55W5Nvv4rJZ7oRPZ9yI3sdKYW1SIkN+vVEFPQCfsfziXuDY7oqH59EmepSiKC4zVDwCVjYNKNR6XgVwuv//OteV52pgake5d/VyoRhHz0AUMpPqSOpAoQgvt6lPT2zbEUvusIZPgjHdjUbqY0UKA6HtvqXYH19RX3VAbPeRDYiWhqPQoF7ybvLrnffRHsYb3AzWNzKiAuZGnhYjYWp7Ckvh/Sya9uYUxrKV+Lr6GmihCO6GQ82jhEEttV9bSwDcgolVS80vNN4KBVKkmiqBMeJfp2MIYy4XIDSZkklhOo5YLmYPg8oej0x8tJ1xbYbNQ7k4hdZkydLPdCQdSU5lXhkaLwYeEkKK0/sRRelpISZgchK3eB4ThRLJ5FT4MpYSk5RBLbfMGlZyYgibgpHhhnX6t5O8oycyS8/7pYyzFV8tXklF3wzb+EkndyxJqxGO0RJ6Ques+6v3UQttEjmsizVcsnK8QMJAaZXYtaHWNH1xbaesicC5srji6MJyR6r/L7OKJ6ppz2/IhllotfJeBrioBzeRwPLsTit/bk2c+tI3w32ehk87TcK0vLL7iFj65Nhvwrt9mobMcSdMVZ9snIBV5cG3E9nX13WOOOOGQpp3aA7D718ZY+ksWWgeh/TvpbpptYj+svVtoA1RggDpbXPUIeug2O9TcLRR8VGHz4fv6ocNCOKXYiyONWiz8ikWx3sDT2CIN0z53loX2dzU1lrkp/x5p+mxhs1DOFqL8dqZgeywFjNRDunkZo+rSJ9dmzYfSAJz8Q2eL3UDLDLov96VYyDP+nWtrbBYyaQrihehtfx0wSfPyQ6s2e3Bt1vYjD/I+ZqHFQHNdjv0nReTyGVvINI2V75gvgP5VTJyz4vM+thgstI2AZTrzIxaqiaJQYcacEUY9+rCPpdZamvkshreoiWILaq9mpAy2688eGCy03i8nRJ/asFBRh6AnBkF4+D4yFBFPrk1OVB9YNaTSv31BLcj/wSmDNhOuzTq55k1dzxSQKHpbAIXqUUgsC82eXBvC1jeQwkBQtbuXqIliDHugnQanjOnMTGptAnKDmWuISdRCnUfGBe00MGWcpZkZ+9yTVA0V0hHZVAyXqCOKs/F/Aj/ubfRhURRNXlpBsdwRDTVc2hsvu4noiSjVU5MpCrVkJSxlVG3JbbtzbaaSnvFamVzwX1gj5xntJWqikLu56sSQGRp2kOra7F9HflP/SWDpy2hDFFMLSqSAUIN6z4BlS2Ief1LXZq/FkJup92PkGKJjaUCiUJwEeI2AlMGjx7OuLcHEfrUM3HzHFzK41IEhlSGBfVx1YsCeJESU85bJ3UI7GFN6ix//JY9pdRVboKITJK0KtFPvMoIjCalrUx/ks5uiMl+mwUKgm2mwJ+TfPA2c1rWVOQc3jtpEqtQS+MyrO9wDE4U+D6kW+i3t4TFMrCEts0ddmyPLgfIz5wkClVw0rQnAYFJLOzCD8dQvZYgZdmkNqatGGGRf05qm0b6NUhUO469viTpsp36xPFbWkDYu0AdQ4o/lMCtQ6g1dCBKFOSWrT8492ulQ5/3g2ji4yVyTCrCyPm4N/CCLADMIG6Baom4mD2A79UgZ9bXhiE3Y9lhR4kxymqmvvGPAkRWN4Iw83C8Flv5b1j2B9Q3ulEF3GKwKchMwunXNh+/oeRJuzejmW7O+FDZA4BcrbAT+dqeMTQbXkDpHRZpFM4Mnd5e9OMq42192aoFaLw0MIaBX258M5hVdA5yqfZwNxWMp7tcfYjc9UQetrnwKbB2gxTs+L2ynjtlvdhlOXcaTNaQYu9MMm2Ui3BAcLIJzDvzgMjA75mDJzDWkzDa7oJccLs2AcxTOB8Nb7CsTpmtIB66tLEjqnITmUp/1iwyNomsZteoQD2IEVNlaU0Z9SnNu1IRrG3Yc8Bsx+KzFf4huFAJ+wWtIDdvptyW/GHYc8FuPT8EKCaPkuhPaYAL3eqxm+s2Y3/r1+LodeDz3VKgA9WCQkxbzgEThSd7BdmpMGYKTePqw59rynGOcwrsmgG08ljxfIu0HA4nCm/aB7dSUMmg+GDXl2ob92vypUFZdtcn9LunecAgySBT+82bem6KIzbAM+7WFMPbifHBDvSQ+Gc+whoWyATuJwnaqJ9Aowsb92sL2GKppddwfyMSZOTmITYYsrV19x6DFTGApcqzdXm4bg/3a7uePkfBtL8UidVZtztvteRP1/7b65HzcyhL2tI1y91aHUtipX7rN/RhPuLZxvzYHqbgS+d/t11aWgmsjOf/L/6Tr33OPCahWlg23JisnXNu42/VaN0l+ipjPtZ6N8B/Z+9JyNgJZuRN7jk3esXzk2sY/Ta6hHNYkrCgGa5pC5dri+9kItvUzi5f66nM2wpqbaeV1NsLa9/NWz0Z4cG09yBFbZJTzClaXIBsyQjWMn7EUno1gX424ZKE/WDkbQbPbNcK8wfov116UiLMR7hYihWsry4L/fQA4n920Figsf0C1Jwwt5WwxJn+yosOsnsLGrQS9ziFNV3nOTBpyDumHyrk/KfTR+RQfTri2CYDLV5cU2amUrNBzbRN3ktWd2dXEmlPJrOeQ/vU7B0oSfA4pXtWZT/ez80znkHJbe65NAnAzquP/TEQZhQTVjFybfJjHarpiP/8uQTWQLTDSWJgs+bxqSTYAqk0tlLk2CcClazlLFqUqVDNzbUryX0W0EdMZKlTzOYc0WdWZzrZTq60+TMnX0k1kw7ncifkcUhnkKACuycuFY/DqFuugmpVrUwEcLIdZkFRnPVTzPZd7mHNbcs7YTDpfEnIOqQzg/toMi5igmoVrGwGcpHXVD/+dZCXWQjVs59pgg13qIUm5Eaq5uDbVwnKJDbXiBhqhmotrgwAOb5bmxuqMSzNUc3FtcvIf4s/CkoZIExaoFpYtBm0xa3PGT0l9hHnBmi2sPrwDuNtyABy7OaCamWtrLAAu3i9lpEH3LqjmwbWNWtmd12WYKBbFOaCaF9em0ZKfJfTFeufufD5cm1aLkfGUqt8Sdu7fzAHVDFybB4CLy++/bam0Hd5MhmpYhWoTrSVbID0D9/5tIwKk3yzHA6r5cW0GLbEci/dhYVuEVVCmh2qeXJsEiCba8o/SBt0X/Ttk2jcL5dqQTUt2f+BGdu6PzEy8oJo316YHcFxL9HX4n5OKtinW5AWPbGHn2sza/PabTZXeUqIHZU5tZIRqDm2TGZYbfEBYdMkAiNRDS6jVcW2q4wzaIr5algK/Typ2JcQIyt7BtVm0PP9/2saKdplf53uBazNoxe/ku9tHbazokUwDqATK9FoL1yaSKYRqd21u0hZfH7OR+6+IG/AOE1DmAeAgE2UBcIlWS1BHPxFzatohXQbwgWqhXJtdy7Njetm82ZEV3Vwx8QBl7+LaTADufm0c777e6EhGv3ZxagNlZqimal+MNA9tgsv4YFzQFSQ8uhxSgsNjiiHSvJQtplrx62i/pS/lyKqm22s2Ly+8zLX5aHmXJGKXhXqOlVXFou6EyDCE9wVl7+HaQrR5nmXodItYkJUVo9HtuhNbbweCMqfWiLyDAJxGuzt9b/stM5ztkhu37U48WDV4Bih7L9cW0iV5b2jiHJ262zmilD12B6meu4RQGp2P3QWJ0Jc+u87zF5LZnW821+YVViVtI5Ja2aDLdb/ft93X7fbVdW3b7q871GT8P6VRrQcoCw6req5tJoC7ayGk6ktXSJ/BY5KSHgoRy7VWUBYG4KxMVBCAy21aArVyI9RrZ0O1l7g2K4BLVG0+aIlR+yoo+wjX9prWC369rn0AuE9HmlTu+3rtRyPNv+c/cIe0nzmlAAAAAElFTkSuQmCC"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Express Js
+                    </div>
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      MongoDB
+                    </div>
+
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      MySQL
+                    </div>
+
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Graph Ql
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-md-12">
+                <div class="box_three">
+                  <h2 class="text-center">Others</h2>
+
+                  <div class="sc-bZkfAO">
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Git
+                    </div>
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      Github
+                    </div>
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      VS code
+                    </div>
+
+                    <div class="sc-kLLXSd fjSlHP">
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        class="img-fluid"
+                        height="30px"
+                        width="30px"
+                      />
+                      photoshop
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div class="container-fluid">
+        <h1 class="text-center">Projects</h1>
+        <p class="text-center mt-3">
+          I have worked on a wide range of projects. From web site <br />
+          Here are some of my projects.
+        </p>
+        <div class="row mt-5">
+          <div class="col-md-10 mx-auto">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://img.freepik.com/free-vector/landing-page-travel-with-image_23-2148359296.jpg?size=626&ext=jpg&ga=GA1.2.1088565783.1683004931&semt=ais"
+                    alt="Card image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Portfolio website</h5>
+                    <p class="card-text">
+                      project that carry out in the design and structure of the
+                      layout showing the design at the client's request.
+                    </p>
+                    <div class="btn3">
+                      <a
+                        href="https://github.com/Hardik-Dangar/Laura.Bootstrep.Team"
+                        ><i class="bx bxl-github"></i></a
+                      ><a
+                        href="https://hardik-dangar.github.io/Laura.Bootstrep.Team/"
+                        class="ml-2"
+                        ><i class="bx bx-link"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://img.freepik.com/free-psd/elegant-gardening-template-design_23-2149593803.jpg?size=626&ext=jpg&ga=GA1.2.1088565783.1683004931&semt=ais"
+                    alt="Card image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Coffee website</h5>
+                    <p class="card-text">
+                      project that carry out in the design and structure of the
+                      layout showing the design at the client's request.
+                    </p>
+                    <div class="btn3">
+                      <a href="https://github.com/Hardik-Dangar/Coffee."><i class="bx bxl-github"></i></a
+                      ><a href="" class="ml-2"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    class="card-img-top img-fluid"
+                    src="https://img.freepik.com/free-vector/matcha-tea-landing-page-template_23-2148954302.jpg?size=626&ext=jpg&ga=GA1.2.1088565783.1683004931&semt=ais"
+                    alt="Card image"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Starbucks website</h5>
+                    <p class="card-text">
+                      project that carry out in the design and structure of the
+                      layout showing the design at the client's request.
+                    </p>
+                    <div class="btn3">
+                      <a href="#"><i class="bx bxl-github"></i></a
+                      ><a href="" class="ml-2"><i class="bx bx-link"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container-fluid">
+        <h2 class="text-center">Contact</h2>
+        <p class="text-center mt-3">
+          Feel free to reach out to me for any questions or opportunities!
+        </p>
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="form_box mt-5">
+              <form class="login">
+                <h1 class="ro">Email <span> Me </span></h1>
+                <div class="row mt-5">
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your email"
+                      name="email"
+                    />
+                  </div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="Subject"
+                      placeholder="Your Name"
+                      name="Subject"
+                    />
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="namee"
+                      placeholder="Subject"
+                      name="name"
+                    />
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control d"
+                      rows="5"
+                      id="comment"
+                      placeholder="Massage"
+                    ></textarea>
+                  </div>
+
+                  <div class="btn1 mt-5"><a href="" class="" onclick="Show()">Send</a></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill start -->
+
+    <section class="footer">
+      <div class="air air1"></div>
+      <div class="air air2"></div>
+      <div class="air air3"></div>
+      <div class="air air4"></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <h1 class="text-center">Hardik Dangar</h1>
+            <div class="icon">
+              <a href=""><i class="bx bxl-facebook-square"></i></a>
+              <a href="https://github.com/Hardik-Dangar"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/hardik-dangar-808520248/"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+              <a href=""><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+            <p class="text-center">
+              © 2023 Hardik Dangar. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const dynamicText = document.querySelector("h2 span");
+      const words = ["Web Developer", "Web Developer ", "Web Developer", "Web Developer"];
+
+      let wordIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+      const typeEffect = () => {
+        const currentWord = words[wordIndex];
+        const currentChar = currentWord.substring(0, charIndex);
+        dynamicText.textContent = currentChar;
+        dynamicText.classList.add("stop-blinking");
+        if (!isDeleting && charIndex < currentWord.length) {
+          // If condition is true, type the next character
+          charIndex++;
+          setTimeout(typeEffect, 200);
+        } else if (isDeleting && charIndex > 0) {
+          // If condition is true, remove the previous character
+          charIndex--;
+          setTimeout(typeEffect, 100);
+        } else {
+          // If word is deleted then switch to the next word
+          isDeleting = !isDeleting;
+          dynamicText.classList.remove("stop-blinking");
+          wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
+          setTimeout(typeEffect, 1200);
+        }
+      };
+      typeEffect();
+
+
+    
+    </script>
+  </body>
+</html>
